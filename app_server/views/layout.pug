@@ -7,11 +7,20 @@ html(lang='en')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     meta(name='description', content='Source code generated using layoutit.com')
     meta(name='author', content='LayoutIt!')
-    link(href='stylesheets/bootstrap.min.css', rel='stylesheet')
-    link(href='stylesheets/style.css', rel='stylesheet')
+    link(href='/stylesheets/bootstrap.min.css', rel='stylesheet')
+    link(href='/stylesheets/style.css', rel='stylesheet')
   body
-    block content
-    script(src='javascripts/jquery.min.js')
-    script(src='javascripts/bootstrap.min.js')
+    .container
+      block content
+      footer
+        .row
+          .col-12
+            small
+              a(href='/about/') About WPR
+        .row
+          .col-12
+            small &copy; Web Programming Resources (WPR) - Sharan S 2019
+    script(src='/javascripts/jquery.min.js')
+    script(src='/javascripts/bootstrap.min.js')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js',integrity='sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49',crossorigin='anonymous')
-    script(src='javascripts/scripts.js')
+    script(src='/javascripts/scripts.js')
