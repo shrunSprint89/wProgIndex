@@ -3,6 +3,7 @@ const resourceModel = mongoose.model('Resource');
 
 //API function that returns complete list of resources
 const listAllResources = (req, res, next) => {
+  console.log("app_api\models\resouces listAllResources()" + "==>" + "Entered function");
   resourceModel.find(
     {},
     '-pictures',
@@ -25,9 +26,12 @@ const listAllResources = (req, res, next) => {
         message = '';
         resources = result;
       }
+      console.log("app_api\models\resouces listAllResources()" + "==>" + "Data fetched from DB is "+resources);
       return res.status(status).json(resources);
     }
   );
+
+  console.log("app_api\models\resouces listAllResources()" + "==>" + "Exiting function");
 
   // res.status(200)
   //   .json({
