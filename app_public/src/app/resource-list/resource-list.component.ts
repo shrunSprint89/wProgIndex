@@ -11,7 +11,7 @@ import {AppDataService} from '../app-data.service';
 export class ResourceListComponent implements OnInit {
   constructor(private appDataService: AppDataService) { };
 
-  private pageContent: PageContent = {
+  public pageContent: PageContent = {
     pageTitle : "Resources list",
     pageText : "",
     resourceList: []

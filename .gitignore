@@ -60,3 +60,8 @@ typings/
 # next.js build output
 .next
 mongoDbFiles/dataSaveCmds
+documents/dataSaveCmds
+documents/envVars
+documents/herokuAppDetails
+documents/mlabInfo
+documents/terminalCmds

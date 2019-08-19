@@ -1,7 +1,15 @@
 const mongoose = require('mongoose');
 
+let dbURI = 'mongodb://localhost/wprogindexdb';
 
-const dbURI = 'mongodb://localhost/wprogindexdb';
+
+//Change URI if app is running in production
+console.log(`process.env.NODE_ENV is ${process.env.NODE_ENV}`);
+console.log(`process.env.MLAB_URI is ${process.env.MLAB_URI}`);
+if(process.env.NODE_ENV === 'production'){
+  dbURI = process.env.MLAB_URI; //MLAB URI added
+}
+
 mongoose.connect(dbURI, {
   useNewUrlParser: true
 });
