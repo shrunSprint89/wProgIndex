@@ -7,20 +7,23 @@ import {HttpClientModule} from '@angular/common/http';
 import { FrameworkComponent } from './framework/framework.component';
 import { ResourceListComponent } from './resource-list/resource-list.component';
 import { AboutPageComponent } from './about-page/about-page.component';
+import { UnderConstructionComponent } from './under-construction/under-construction.component';
 
 @NgModule({
   declarations: [
   //  AppComponent,
     FrameworkComponent,
     ResourceListComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    UnderConstructionComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
       {
         path: '',
-        component: ResourceListComponent
+        //component: ResourceListComponent
+        component: UnderConstructionComponent
       },
       {
         path: 'about',
