@@ -1,0 +1,997 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "Web programming",
+      "id": 1,
+      "attr": {
+        "position": [
+          -2064,
+          -15,
+          1
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "Basic working of the web",
+          "id": "2.676d.ce30c3133-b9b0.622c40fe9"
+        },
+        "11": {
+          "title": "Website development",
+          "id": "3.676d.ce30c3133-b9b0.622c40fe9",
+          "ideas": {
+            "1": {
+              "title": "Server-side",
+              "id": "6.676d.ce30c3133-b9b0.622c40fe9"
+            },
+            "2": {
+              "title": "Networking (between server and client)",
+              "id": "7.676d.ce30c3133-b9b0.622c40fe9"
+            },
+            "3": {
+              "title": "Client-side",
+              "id": "8.676d.ce30c3133-b9b0.622c40fe9",
+              "ideas": {
+                "1": {
+                  "title": "Redendering",
+                  "id": "9.676d.ce30c3133-b9b0.622c40fe9",
+                  "ideas": {
+                    "1": {
+                      "title": "Browsers",
+                      "id": "10.676d.ce30c3133-b9b0.622c40fe9"
+                    },
+                    "2": {
+                      "title": "Programming languages",
+                      "id": "11.676d.ce30c3133-b9b0.622c40fe9",
+                      "ideas": {
+                        "1": {
+                          "title": "JavaScript",
+                          "id": "13.676d.ce30c3133-b9b0.622c40fe9",
+                          "ideas": {
+                            "1": {
+                              "title": "FWs",
+                              "id": "14.676d.ce30c3133-b9b0.622c40fe9",
+                              "ideas": {
+                                "1": {
+                                  "title": "Angular",
+                                  "id": "15.676d.ce30c3133-b9b0.622c40fe9",
+                                  "ideas": {
+                                    "1": {
+                                      "title": "Purpose",
+                                      "id": "20.1cea.fd6ddbc05-a38b.65b7e899e",
+                                      "ideas": {
+                                        "1": {
+                                          "title": "Sync b/w state and UI",
+                                          "id": "21.1cea.fd6ddbc05-a38b.65b7e899e",
+                                          "ideas": {},
+                                          "attr": {
+                                            "note": {
+                                              "index": 14,
+                                              "text": "https://medium.com/dailyjs/the-deepest-reason-why-modern-javascript-frameworks-exist-933b86ebc445\nhttps://blog.angular-university.io/why-angular-angular-vs-jquery-a-beginner-friendly-explanation-on-the-advantages-of-angular-and-mvc/  [we did not have to write any Model to View Synchronization code manually, that synchronization has been somehow done for us under the hood!]"
+                                            }
+                                          }
+                                        },
+                                        "2": {
+                                          "title": "Separation of concerns - MVC",
+                                          "id": "23.1cea.fd6ddbc05-a38b.65b7e899e",
+                                          "attr": {
+                                            "note": {
+                                              "index": 15,
+                                              "text": "https://blog.angular-university.io/why-angular-angular-vs-jquery-a-beginner-friendly-explanation-on-the-advantages-of-angular-and-mvc/"
+                                            }
+                                          }
+                                        },
+                                        "3": {
+                                          "title": "Code for actual generation of view, like HTML tag creation, is abstracted away",
+                                          "id": "24.1cea.fd6ddbc05-a38b.65b7e899e",
+                                          "attr": {
+                                            "note": {
+                                              "index": 16,
+                                              "text": "https://blog.angular-university.io/why-angular-angular-vs-jquery-a-beginner-friendly-explanation-on-the-advantages-of-angular-and-mvc/"
+                                            }
+                                          }
+                                        },
+                                        "4": {
+                                          "title": "Right way to do things and consistency",
+                                          "id": "25.1cea.fd6ddbc05-a38b.65b7e899e",
+                                          "attr": {
+                                            "note": {
+                                              "index": 17,
+                                              "text": "https://www.reddit.com/r/javascript/comments/7j243n/what_problem_do_reactangular_solve/"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "attr": {
+                                        "note": {
+                                          "index": 13,
+                                          "text": "https://dev.to/angular/why-i-chose-angular-hk  []"
+                                        }
+                                      }
+                                    },
+                                    "2": {
+                                      "title": "Key features",
+                                      "id": "26.1cea.fd6ddbc05-a38b.65b7e899e",
+                                      "ideas": {
+                                        "1": {
+                                          "title": "Bootstrtapping",
+                                          "id": "27.1cea.fd6ddbc05-a38b.65b7e899e",
+                                          "attr": {
+                                            "note": {
+                                              "index": 19,
+                                              "text": "Angular is not a web-only based framework, we can write components that will run in NativeScript, or Cordova, or any other environment that can host Angular applications.\nThe magic is then in our bootstrapping process - we can import which platform we would like to use, depending on the environment we're operating under. [https://angular-2-training-book.rangle.io/bootstrapping/file_structure]"
+                                            }
+                                          }
+                                        },
+                                        "2": {
+                                          "title": "Modules",
+                                          "id": "28.1cea.fd6ddbc05-a38b.65b7e899e"
+                                        },
+                                        "3": {
+                                          "title": "Components",
+                                          "id": "29.1cea.fd6ddbc05-a38b.65b7e899e",
+                                          "ideas": {
+                                            "1": {
+                                              "title": "the whole application can be modeled as a tree of these components.",
+                                              "id": "38.1cea.fd6ddbc05-a38b.65b7e899e",
+                                              "attr": {}
+                                            },
+                                            "2": {
+                                              "title": "section of the app that controls portion of the screen real estate - view and code that controls the view",
+                                              "id": "39.1cea.fd6ddbc05-a38b.65b7e899e"
+                                            },
+                                            "3": {
+                                              "title": "To learn",
+                                              "id": "40.1cea.fd6ddbc05-a38b.65b7e899e",
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "scopes for components",
+                                                  "id": "41.1cea.fd6ddbc05-a38b.65b7e899e"
+                                                }
+                                              }
+                                            },
+                                            "4": {
+                                              "title": "@Input()",
+                                              "id": "45.1cea.fd6ddbc05-a38b.65b7e899e"
+                                            },
+                                            "5": {
+                                              "title": "@Output()",
+                                              "id": "46.1cea.fd6ddbc05-a38b.65b7e899e",
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "EventEmitter",
+                                                  "id": "47.1cea.fd6ddbc05-a38b.65b7e899e"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "attr": {
+                                            "note": {
+                                              "index": 22,
+                                              "text": "The core concept of any Angular application is the component. In effect, the whole application can be modeled as a tree of these components. [https://angular-2-training-book.rangle.io/components]"
+                                            }
+                                          }
+                                        },
+                                        "4": {
+                                          "title": "Services",
+                                          "id": "30.1cea.fd6ddbc05-a38b.65b7e899e"
+                                        },
+                                        "5": {
+                                          "title": "Decorators",
+                                          "id": "42.1cea.fd6ddbc05-a38b.65b7e899e",
+                                          "ideas": {
+                                            "1": {
+                                              "title": "@Input()",
+                                              "id": "43.1cea.fd6ddbc05-a38b.65b7e899e",
+                                              "attr": {
+                                                "note": {
+                                                  "index": 29,
+                                                  "text": "defines a set of parameters that can be passed down from the component's parent. [https://angular-2-training-book.rangle.io/components/app_structure_with_components/passing_data_into_components]"
+                                                }
+                                              },
+                                              "ideas": {
+                                                "1": {
+                                                  "title": "One way binding when property binding is used to pass in data",
+                                                  "id": "44.1cea.fd6ddbc05-a38b.65b7e899e"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "2.5": {
+                                          "title": "Directives",
+                                          "id": "31.1cea.fd6ddbc05-a38b.65b7e899e"
+                                        }
+                                      }
+                                    },
+                                    "3": {
+                                      "title": "Key files",
+                                      "id": "32.1cea.fd6ddbc05-a38b.65b7e899e",
+                                      "ideas": {
+                                        "1": {
+                                          "title": "main.ts",
+                                          "id": "33.1cea.fd6ddbc05-a38b.65b7e899e"
+                                        },
+                                        "2": {
+                                          "title": "app.module.ts",
+                                          "id": "34.1cea.fd6ddbc05-a38b.65b7e899e"
+                                        },
+                                        "3": {
+                                          "title": "app.component.ts",
+                                          "id": "35.1cea.fd6ddbc05-a38b.65b7e899e"
+                                        },
+                                        "4": {
+                                          "title": "index.html",
+                                          "id": "36.1cea.fd6ddbc05-a38b.65b7e899e",
+                                          "ideas": {
+                                            "1": {
+                                              "title": "app-root html element",
+                                              "id": "37.1cea.fd6ddbc05-a38b.65b7e899e"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "attr": {
+                                    "note": {
+                                      "index": 12,
+                                      "text": "{Courses: [  https://angular-university.io/   ] }"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "2": {
+                          "title": "TypeScript",
+                          "id": "48.d48b.f6a803257-ebd5.7d49d9727",
+                          "ideas": {
+                            "1": {
+                              "title": "Structure",
+                              "id": "50.d48b.f6a803257-ebd5.7d49d9727",
+                              "ideas": {
+                                "1": {
+                                  "title": "Fucntional and OO",
+                                  "id": "51.d48b.f6a803257-ebd5.7d49d9727"
+                                },
+                                "2": {
+                                  "title": "Superset of JS",
+                                  "id": "52.d48b.f6a803257-ebd5.7d49d9727"
+                                }
+                              },
+                              "attr": {}
+                            },
+                            "2": {
+                              "title": "Primary motive",
+                              "id": "53.d48b.f6a803257-ebd5.7d49d9727",
+                              "ideas": {
+                                "1": {
+                                  "title": "Type annotations and checking at compile time for JS",
+                                  "id": "54.d48b.f6a803257-ebd5.7d49d9727"
+                                },
+                                "2": {
+                                  "title": "Moire features over JS",
+                                  "id": "55.d48b.f6a803257-ebd5.7d49d9727"
+                                },
+                                "3": {
+                                  "title": "Compiles to plain old JS",
+                                  "id": "56.d48b.f6a803257-ebd5.7d49d9727"
+                                }
+                              }
+                            },
+                            "3": {
+                              "title": "Basics",
+                              "id": "57.d48b.f6a803257-ebd5.7d49d9727",
+                              "ideas": {
+                                "1": {
+                                  "title": "types",
+                                  "id": "58.d48b.f6a803257-ebd5.7d49d9727",
+                                  "ideas": {
+                                    "1": {
+                                      "title": "value that has properties and methods",
+                                      "id": "61.d48b.f6a803257-ebd5.7d49d9727"
+                                    },
+                                    "2": {
+                                      "title": "every value in TS has a type",
+                                      "id": "62.d48b.f6a803257-ebd5.7d49d9727"
+                                    },
+                                    "3": {
+                                      "title": "new Date() has a Date type",
+                                      "id": "63.d48b.f6a803257-ebd5.7d49d9727"
+                                    },
+                                    "4": {
+                                      "title": "Primitive type",
+                                      "id": "64.d48b.f6a803257-ebd5.7d49d9727"
+                                    },
+                                    "5": {
+                                      "title": "Object type",
+                                      "id": "66.d48b.f6a803257-ebd5.7d49d9727"
+                                    }
+                                  }
+                                },
+                                "2": {
+                                  "title": "Values",
+                                  "id": "59.d48b.f6a803257-ebd5.7d49d9727",
+                                  "ideas": {
+                                    "1": {
+                                      "title": "Anything that can  be assigned to a variabe",
+                                      "id": "60.d48b.f6a803257-ebd5.7d49d9727"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "4": {
+                              "title": "Why care?",
+                              "id": "67.d48b.f6a803257-ebd5.7d49d9727"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "3": {
+                      "title": "Storage options",
+                      "id": "12.676d.ce30c3133-b9b0.622c40fe9"
+                    }
+                  }
+                }
+              }
+            },
+            "4": {
+              "title": "Programming methods",
+              "id": "16.676d.ce30c3133-b9b0.622c40fe9",
+              "attr": {}
+            }
+          }
+        },
+        "21": {
+          "title": "Android applications",
+          "id": "4.676d.ce30c3133-b9b0.622c40fe9"
+        },
+        "31": {
+          "title": "IOT",
+          "id": "5.676d.ce30c3133-b9b0.622c40fe9"
+        }
+      }
+    },
+    "2": {
+      "title": "Web prog",
+      "id": "68.ba38.049830e47-f8bb.f3044d63b",
+      "attr": {
+        "position": [
+          109,
+          -15,
+          1
+        ]
+      },
+      "ideas": {
+        "6": {
+          "title": "Prob solving strategies",
+          "ideas": {
+            "2": {
+              "title": "for individual languages",
+              "id": "173.ba38.049830e47-f8bb.f3044d63b"
+            },
+            "3": {
+              "title": "general",
+              "id": "174.ba38.049830e47-f8bb.f3044d63b",
+              "ideas": {
+                "1": {
+                  "title": "Algo",
+                  "id": "122.ba38.049830e47-f8bb.f3044d63b",
+                  "attr": {}
+                },
+                "2": {
+                  "title": "DS",
+                  "id": "123.ba38.049830e47-f8bb.f3044d63b",
+                  "ideas": {
+                    "1": {
+                      "title": "Lists",
+                      "id": "153.ba38.049830e47-f8bb.f3044d63b",
+                      "ideas": {
+                        "1": {
+                          "title": "Arrays",
+                          "id": "156.ba38.049830e47-f8bb.f3044d63b"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "Maps",
+                      "id": "154.ba38.049830e47-f8bb.f3044d63b"
+                    }
+                  },
+                  "attr": {}
+                }
+              }
+            }
+          },
+          "id": "120.ba38.049830e47-f8bb.f3044d63b",
+          "attr": {}
+        },
+        "15": {
+          "title": "Programming methodology / habits / practice",
+          "id": "119.ba38.049830e47-f8bb.f3044d63b",
+          "ideas": {
+            "1": {
+              "title": "Agile",
+              "id": "157.ba38.049830e47-f8bb.f3044d63b"
+            },
+            "2": {
+              "title": "Waterfall",
+              "id": "158.ba38.049830e47-f8bb.f3044d63b"
+            }
+          },
+          "attr": {}
+        },
+        "-13": {
+          "title": "Maintainabilty",
+          "ideas": {
+            "1": {
+              "title": "Readable code",
+              "id": "116.ba38.049830e47-f8bb.f3044d63b"
+            },
+            "2": {
+              "title": "Dcoumentation",
+              "id": "117.ba38.049830e47-f8bb.f3044d63b"
+            }
+          },
+          "id": "115.ba38.049830e47-f8bb.f3044d63b",
+          "attr": {}
+        },
+        "-23": {
+          "title": "FWs and libraries, existing solutions, design patterns",
+          "ideas": {
+            "1": {
+              "title": "Design patterns",
+              "id": "112.ba38.049830e47-f8bb.f3044d63b"
+            },
+            "2": {
+              "title": "librabries",
+              "id": "113.ba38.049830e47-f8bb.f3044d63b"
+            },
+            "3": {
+              "title": "open source code, other solutions",
+              "id": "114.ba38.049830e47-f8bb.f3044d63b"
+            },
+            "4": {
+              "title": "FWs",
+              "id": "124.ba38.049830e47-f8bb.f3044d63b",
+              "ideas": {
+                "1": {
+                  "title": "Angular",
+                  "id": "125.ba38.049830e47-f8bb.f3044d63b",
+                  "attr": {}
+                }
+              }
+            }
+          },
+          "id": "111.ba38.049830e47-f8bb.f3044d63b",
+          "attr": {}
+        },
+        "-33": {
+          "title": "Toolset",
+          "ideas": {
+            "1": {
+              "title": "Dev",
+              "ideas": {
+                "1": {
+                  "title": "Editors",
+                  "id": "101.ba38.049830e47-f8bb.f3044d63b"
+                },
+                "2": {
+                  "title": "Debugging tools",
+                  "id": "102.ba38.049830e47-f8bb.f3044d63b",
+                  "ideas": {
+                    "1": {
+                      "title": "Chrome debugger",
+                      "id": "147.ba38.049830e47-f8bb.f3044d63b"
+                    },
+                    "2": {
+                      "title": "Firefox debugger",
+                      "id": "148.ba38.049830e47-f8bb.f3044d63b"
+                    },
+                    "3": {
+                      "title": "\nFirefox dev realse",
+                      "id": "149.ba38.049830e47-f8bb.f3044d63b"
+                    }
+                  },
+                  "attr": {
+                    "collapsed": true
+                  }
+                },
+                "0.5": {
+                  "title": "Language/ instruction set",
+                  "id": "103.ba38.049830e47-f8bb.f3044d63b",
+                  "ideas": {
+                    "1": {
+                      "title": "Java",
+                      "id": "126.ba38.049830e47-f8bb.f3044d63b",
+                      "attr": {}
+                    },
+                    "2": {
+                      "title": "Python",
+                      "id": "127.ba38.049830e47-f8bb.f3044d63b",
+                      "attr": {}
+                    },
+                    "3": {
+                      "title": "JS",
+                      "id": "128.ba38.049830e47-f8bb.f3044d63b",
+                      "attr": {}
+                    },
+                    "4": {
+                      "title": "TS",
+                      "ideas": {
+                        "1": {
+                          "title": "Why care?",
+                          "id": "130.ba38.049830e47-f8bb.f3044d63b"
+                        },
+                        "2": {
+                          "title": "Basics",
+                          "ideas": {
+                            "4": {
+                              "title": "Type system",
+                              "id": "166.ba38.049830e47-f8bb.f3044d63b",
+                              "ideas": {
+                                "1": {
+                                  "title": "Values",
+                                  "ideas": {
+                                    "1": {
+                                      "title": "Anything that can  be assigned to a variabe",
+                                      "id": "139.ba38.049830e47-f8bb.f3044d63b"
+                                    }
+                                  },
+                                  "id": "138.ba38.049830e47-f8bb.f3044d63b",
+                                  "attr": {}
+                                },
+                                "2": {
+                                  "title": "types",
+                                  "ideas": {
+                                    "1": {
+                                      "title": "value that has properties and methods",
+                                      "id": "133.ba38.049830e47-f8bb.f3044d63b"
+                                    },
+                                    "2": {
+                                      "title": "every value in TS has a type",
+                                      "id": "134.ba38.049830e47-f8bb.f3044d63b"
+                                    },
+                                    "3": {
+                                      "title": "new Date() has a Date type",
+                                      "id": "135.ba38.049830e47-f8bb.f3044d63b"
+                                    },
+                                    "4": {
+                                      "title": "Primitive type",
+                                      "id": "136.ba38.049830e47-f8bb.f3044d63b"
+                                    },
+                                    "5": {
+                                      "title": "Object type",
+                                      "id": "137.ba38.049830e47-f8bb.f3044d63b"
+                                    }
+                                  },
+                                  "id": "132.ba38.049830e47-f8bb.f3044d63b",
+                                  "attr": {}
+                                }
+                              }
+                            },
+                            "14": {
+                              "title": "Type annotations vs Type inference",
+                              "id": "159.ba38.049830e47-f8bb.f3044d63b",
+                              "ideas": {
+                                "1": {
+                                  "title": "Annotation",
+                                  "id": "167.ba38.049830e47-f8bb.f3044d63b"
+                                },
+                                "2": {
+                                  "title": "Inference",
+                                  "id": "168.ba38.049830e47-f8bb.f3044d63b"
+                                }
+                              }
+                            },
+                            "15": {
+                              "title": "Basic purpose",
+                              "id": "169.ba38.049830e47-f8bb.f3044d63b",
+                              "ideas": {
+                                "1": {
+                                  "title": "Type checking and better compile time error checking",
+                                  "id": "170.ba38.049830e47-f8bb.f3044d63b"
+                                },
+                                "2": {
+                                  "title": "Friends sitting next to while coding in JS",
+                                  "id": "171.ba38.049830e47-f8bb.f3044d63b"
+                                },
+                                "3": {
+                                  "title": "Errors and issues can be identified by code-checkers while coding",
+                                  "id": "172.ba38.049830e47-f8bb.f3044d63b"
+                                }
+                              }
+                            }
+                          },
+                          "id": "131.ba38.049830e47-f8bb.f3044d63b"
+                        },
+                        "3": {
+                          "title": "Primary motive",
+                          "ideas": {
+                            "1": {
+                              "title": "Type annotations and checking at compile time for JS",
+                              "id": "141.ba38.049830e47-f8bb.f3044d63b"
+                            },
+                            "2": {
+                              "title": "Moire features over JS",
+                              "id": "142.ba38.049830e47-f8bb.f3044d63b"
+                            },
+                            "3": {
+                              "title": "Compiles to plain old JS",
+                              "id": "143.ba38.049830e47-f8bb.f3044d63b"
+                            }
+                          },
+                          "id": "140.ba38.049830e47-f8bb.f3044d63b"
+                        },
+                        "4": {
+                          "title": "Structure",
+                          "ideas": {
+                            "1": {
+                              "title": "Fucntional and OO",
+                              "id": "145.ba38.049830e47-f8bb.f3044d63b"
+                            },
+                            "2": {
+                              "title": "Superset of JS",
+                              "id": "146.ba38.049830e47-f8bb.f3044d63b"
+                            }
+                          },
+                          "id": "144.ba38.049830e47-f8bb.f3044d63b"
+                        }
+                      },
+                      "id": "129.ba38.049830e47-f8bb.f3044d63b",
+                      "attr": {}
+                    }
+                  }
+                }
+              },
+              "id": "100.ba38.049830e47-f8bb.f3044d63b"
+            },
+            "2": {
+              "title": "Test",
+              "ideas": {
+                "1": {
+                  "title": "Testing tools",
+                  "id": "105.ba38.049830e47-f8bb.f3044d63b",
+                  "ideas": {
+                    "1": {
+                      "title": "Jasmine",
+                      "id": "150.ba38.049830e47-f8bb.f3044d63b"
+                    },
+                    "2": {
+                      "title": "Karma",
+                      "id": "151.ba38.049830e47-f8bb.f3044d63b"
+                    }
+                  }
+                }
+              },
+              "id": "104.ba38.049830e47-f8bb.f3044d63b"
+            },
+            "3": {
+              "title": "Release",
+              "ideas": {
+                "1": {
+                  "title": "Build tools",
+                  "id": "107.ba38.049830e47-f8bb.f3044d63b",
+                  "ideas": {
+                    "1": {
+                      "title": "Webpack",
+                      "id": "152.ba38.049830e47-f8bb.f3044d63b"
+                    }
+                  }
+                }
+              },
+              "id": "106.ba38.049830e47-f8bb.f3044d63b"
+            },
+            "4": {
+              "title": "Maintenance",
+              "ideas": {
+                "1": {
+                  "title": "Monitoring",
+                  "id": "109.ba38.049830e47-f8bb.f3044d63b"
+                },
+                "2": {
+                  "title": "Fix tools",
+                  "id": "110.ba38.049830e47-f8bb.f3044d63b",
+                  "ideas": {}
+                }
+              },
+              "id": "108.ba38.049830e47-f8bb.f3044d63b"
+            }
+          },
+          "id": "99.ba38.049830e47-f8bb.f3044d63b",
+          "attr": {}
+        }
+      }
+    }
+  },
+  "title": "Web programming",
+  "links": [],
+  "theme": {
+    "name": "MindMup Default",
+    "node": [
+      {
+        "name": "default",
+        "cornerRadius": 10,
+        "backgroundColor": "#E0E0E0",
+        "border": {
+          "type": "surround",
+          "line": {
+            "color": "#707070",
+            "width": 1,
+            "style": "solid"
+          }
+        },
+        "shadow": [
+          {
+            "color": "#070707",
+            "opacity": 0.4,
+            "offset": {
+              "width": 2,
+              "height": 2
+            },
+            "radius": 2
+          }
+        ],
+        "text": {
+          "margin": 5,
+          "alignment": "center",
+          "maxWidth": 146,
+          "color": "#4F4F4F",
+          "lightColor": "#EEEEEE",
+          "darkColor": "#000000",
+          "font": {
+            "lineSpacing": 4.5,
+            "lineSpacingPx": 6,
+            "size": 9,
+            "sizePx": 12,
+            "weight": "bold"
+          }
+        },
+        "connections": {
+          "default": {
+            "h": "center",
+            "v": "center"
+          },
+          "from": {
+            "horizontal": {
+              "h": "nearest-inset",
+              "v": "center"
+            }
+          },
+          "to": {
+            "h": "nearest",
+            "v": "center"
+          }
+        },
+        "decorations": {
+          "height": 20,
+          "edge": "top",
+          "overlap": true,
+          "position": "end",
+          "margin": 2,
+          "label": {
+            "border": 1,
+            "cornerRadius": 11,
+            "margin": 2,
+            "font": {
+              "lineSpacing": 0,
+              "lineSpacingPx": 0,
+              "size": 9,
+              "sizePx": 12,
+              "weight": "bold"
+            }
+          },
+          "cornerRadius": 12,
+          "backgroundColor": "#22aae0",
+          "opacity": 0.8,
+          "color": "#ffffff"
+        }
+      },
+      {
+        "name": "level_1",
+        "backgroundColor": "#22AAE0"
+      },
+      {
+        "name": "activated",
+        "border": {
+          "type": "surround",
+          "line": {
+            "color": "#22AAE0",
+            "width": 3,
+            "style": "dotted"
+          }
+        }
+      },
+      {
+        "name": "level_1.activated",
+        "border": {
+          "type": "surround",
+          "line": {
+            "color": "#EEEEEE",
+            "width": 3,
+            "style": "dotted"
+          }
+        }
+      },
+      {
+        "name": "selected",
+        "shadow": [
+          {
+            "color": "#000000",
+            "opacity": 0.9,
+            "offset": {
+              "width": 2,
+              "height": 2
+            },
+            "radius": 2
+          }
+        ]
+      },
+      {
+        "name": "collapsed",
+        "shadow": [
+          {
+            "color": "#888888",
+            "offset": {
+              "width": 0,
+              "height": 1
+            },
+            "radius": 0
+          },
+          {
+            "color": "#FFFFFF",
+            "offset": {
+              "width": 0,
+              "height": 3
+            },
+            "radius": 0
+          },
+          {
+            "color": "#888888",
+            "offset": {
+              "width": 0,
+              "height": 4
+            },
+            "radius": 0
+          },
+          {
+            "color": "#FFFFFF",
+            "offset": {
+              "width": 0,
+              "height": 6
+            },
+            "radius": 0
+          },
+          {
+            "color": "#888888",
+            "offset": {
+              "width": 0,
+              "height": 7
+            },
+            "radius": 0
+          }
+        ]
+      },
+      {
+        "name": "collapsed.selected",
+        "shadow": [
+          {
+            "color": "#FFFFFF",
+            "offset": {
+              "width": 0,
+              "height": 1
+            },
+            "radius": 0
+          },
+          {
+            "color": "#888888",
+            "offset": {
+              "width": 0,
+              "height": 3
+            },
+            "radius": 0
+          },
+          {
+            "color": "#FFFFFF",
+            "offset": {
+              "width": 0,
+              "height": 6
+            },
+            "radius": 0
+          },
+          {
+            "color": "#555555",
+            "offset": {
+              "width": 0,
+              "height": 7
+            },
+            "radius": 0
+          },
+          {
+            "color": "#FFFFFF",
+            "offset": {
+              "width": 0,
+              "height": 10
+            },
+            "radius": 0
+          },
+          {
+            "color": "#333333",
+            "offset": {
+              "width": 0,
+              "height": 11
+            },
+            "radius": 0
+          }
+        ]
+      }
+    ],
+    "connector": {
+      "default": {
+        "type": "quadratic",
+        "controlPoint": {
+          "above": {
+            "width": 0,
+            "height": 0.75
+          },
+          "below": {
+            "width": 0,
+            "height": 0.75
+          },
+          "horizontal": {
+            "width": 0,
+            "height": 0
+          }
+        },
+        "label": {
+          "position": {
+            "ratio": 0.5
+          },
+          "backgroundColor": "transparent",
+          "borderColor": "transparent",
+          "text": {
+            "color": "#4F4F4F",
+            "font": {
+              "size": 9,
+              "sizePx": 12,
+              "weight": "normal"
+            }
+          }
+        },
+        "line": {
+          "color": "#707070",
+          "width": 1
+        }
+      }
+    },
+    "link": {
+      "default": {
+        "line": {
+          "color": "red",
+          "lineStyle": "dashed",
+          "width": 1
+        },
+        "label": {
+          "position": {
+            "ratio": 0.5
+          },
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "text": {
+            "color": "#4F4F4F",
+            "font": {
+              "size": 9,
+              "sizePx": 12,
+              "weight": "normal"
+            }
+          }
+        }
+      }
+    }
+  }
+}

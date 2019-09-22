@@ -42,13 +42,12 @@
             "tsConfig": "tsconfig.app.json",
             "aot": false,
             "assets": [
-              "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["./node_modules/particles.js/particles.js"]
           },
           "configurations": {
             "production": {

@@ -4,7 +4,9 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const lessMiddleware = require('less-middleware');
 const logger = require('morgan');
-require('./app_api/models/db');
+
+//commenting DB connection out since we aren't using it for now. Taking map from a file for now.
+//require('./app_api/models/db');
 
 //commented out since Angular SPA is being used
 //const indexRouter = require('./app_server/routes/index');
@@ -30,6 +32,11 @@ app.use(express.static(path.join(__dirname, 'app_public', 'angularBuild')));
 //Allow CORS for testing the Angular app using ng serve if not in production mode
 if(process.env.NODE_ENV !== 'production'){
   app.use('/api', (req, res, next) => {
+    res.header('Access-Control-Allow-Origin', 'http://localhost:4200');
+    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+    next();
+  });
+  app.use('/api/nodes', (req, res, next) => {
     res.header('Access-Control-Allow-Origin', 'http://localhost:4200');
     res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
     next();

@@ -1,1 +1,129 @@
-body{padding:50px;font:14px "Lucida Grande",Helvetica,Arial,sans-serif}a{color:#00B7FF}
+
+
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  /*padding:50px;*/
+  /*font:14px "Lucida Grande",Helvetica,Arial,sans-serif;*/
+  font-family: 14px "Trebuchet MS", Helvetica, sans-serif;
+}
+
+a{
+  /*color:#00B7FF;*/
+  color: #00569E;
+}
+
+.appHeader{
+  z-index : 11;
+  position: absolute;
+  top: 5%;
+  text-align: center;
+  width: 100%;
+}
+
+.appContentFullPage{
+  padding: none;
+}
+
+.appContent{
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+
+.appFooter{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(142, 204, 255, 0.5);
+}
+
+.appTitle{
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 40px;
+  letter-spacing: 1px;
+  word-spacing: 0px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-shadow: 1px 3px 0 #969696, 1px 7px 5px #aba8a8;
+}
+
+.appTitle a{
+  color: #000000;
+}
+
+.pageHeader{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+
+.pageContent{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+
+.pageFooter{
+
+}
+
+.pageText{
+
+}
+
+.simpleList{
+
+}
+.containerFullHeight{
+  height: 100%;    
+}
+
+.containerFullWindow{
+  height: 100%;    
+  width: 100%;    
+}
+
+.markmap-node {
+  cursor: pointer;
+}
+
+.markmap-node-circle {
+  fill: #fff;
+  stroke-width: 1.5px;
+}
+
+.markmap-node-text {
+  fill:  #000;
+  font: 10px sans-serif;
+}
+
+.markmap-link {
+  fill: none;
+}
+
+.shadowHeading{
+  text-shadow: 1px 3px 0 #969696, 1px 7px 5px #aba8a8;
+}
+
+.rightTopFloatingCard{
+  padding: 10px;
+  z-index : 10;
+  position : absolute;
+  top : 15%;
+  right: 10%;
+  background-color: rgba(142, 204, 255, 0.5)}

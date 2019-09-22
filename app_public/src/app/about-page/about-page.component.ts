@@ -9,7 +9,7 @@ import {PageContent} from '../page-content'
 })
 export class AboutPageComponent implements OnInit {
   pageContent: PageContent = {
-    pageTitle : "About WProgIndex",
+    pageTitle : "About wProgIndex",
     pageText : "",
     resourceList: []
   };

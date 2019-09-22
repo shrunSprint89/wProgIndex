@@ -1,12 +1,19 @@
-<div class="container">
-  <h1><a routerLink="">{{title}}</a></h1>
-  <router-outlet></router-outlet>
-  <footer>
-    <div class="row">
-      <div class="col-12"><small><a routerLink="about">About wprogindex</a></small></div>
-    </div>
-    <div class="row">
-      <div class="col-12"><small>© Web Programming Resources (WPR) - Sharan S 2019</small></div>
-    </div>
-  </footer>
+<div class="containerFullWindow" id="particles-js">
+  <div id="appContainer" class="containerFullWindow">
+    <header class="appHeader">
+        <h1 class="appTitle"><a routerLink="">{{title}}</a></h1>
+    </header>
+    <router-outlet class="containerFullWindow"></router-outlet>
+    <footer class="appFooter container-fluid">
+      <div class="row">
+        <div class="col-12"><a routerLink="about">About wProgIndex</a></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          Page created by <a href="https://github.com/shrunSprint89/">shrunSprint89</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
 </div>

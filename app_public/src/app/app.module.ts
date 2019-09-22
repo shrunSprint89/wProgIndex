@@ -8,6 +8,9 @@ import { FrameworkComponent } from './framework/framework.component';
 import { ResourceListComponent } from './resource-list/resource-list.component';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { UnderConstructionComponent } from './under-construction/under-construction.component';
+import { WebprogMapComponent } from './webprog-map/webprog-map.component';
+import { MapGuideComponent } from './map-guide/map-guide.component';
+//import { WebprogMapJsmindmapComponent } from './webprog-map-jsmindmap/webprog-map-jsmindmap.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { UnderConstructionComponent } from './under-construction/under-construct
     FrameworkComponent,
     ResourceListComponent,
     AboutPageComponent,
-    UnderConstructionComponent
+    UnderConstructionComponent,
+    WebprogMapComponent,
+    MapGuideComponent
+    //WebprogMapJsmindmapComponent
   ],
   imports: [
     BrowserModule,
@@ -23,12 +29,17 @@ import { UnderConstructionComponent } from './under-construction/under-construct
       {
         path: '',
         //component: ResourceListComponent
-        component: UnderConstructionComponent
+        component: WebprogMapComponent
       },
       {
         path: 'about',
         component: AboutPageComponent
       }
+      /*,
+      {
+        path: 'webprogMap',
+        component: WebprogMapComponent
+      }*/
     ]),
     HttpClientModule
   ],
