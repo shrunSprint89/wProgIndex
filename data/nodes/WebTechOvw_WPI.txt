@@ -1,6 +1,5 @@
 Web prog
 	Problem solving
-		For individual languages
 		General
 			Algorithms
         Big O notation
@@ -31,65 +30,88 @@ Web prog
 	Programming methodology / habits / practice
 		Methodology
       Agile
+				Values and principles based in the Agile manifesto
+					http://agilemanifesto.org
+				Iterative, incremental and evolutionary by virtue of values and principles
+					https://en.wikipedia.org/wiki/Agile_software_development#Overview
       Waterfall
+				The waterfall model is a breakdown of project activities into linear sequential phases
 		Practice
 			SOLID
+				Basics
+					Design principles for OOP, but can also be applied partly to other paradigms
+					Robert C. Martin in his paper in 2000 - Design Principles and Design Patterns
+				Full-form
+					Single responsibility principle
+						A class should only have a single responsibility
+					Open–closed principle
+						Software entities should be open for extension, but closed for modification
+					Liskov substitution principle
+						Objects in a program should be replaceable with instances of their subtypes
+					Interface segregation principle
+						Many client-specific interfaces are better than one general-purpose interface
+					Dependency inversion principle
+						High-level modules should not depend on low-level modules. Both should depend on abstractions
+						Abstractions should not depend on details. Details should depend on abstractions
 	Languages
 		Java
 		Python
 		JS (JavaScript)
-      Why care?
+      Significance / importance
         Language of the browser
         Server side runtime has made this a full-stack language (NodeJS)
+			Primary motive
+        Began as a client-side scripting language
+        Has evolved to be a full-featured full-stack language
 			Basics
 				Type system
           Dynamically typed
             Variables do not have any types. Only values have types
             Variables can hold values of any type
-					Types
-						value that has properties and methods
-						every value in TS has a type
-						new Date() has a Date type
-						Primitive type
-						Object type
         Higher order functions
           Functions that allow us to pass functions as params or produce functions as return value
           Allows us to pass 'what to do' part along with data to a function
           Allows us to reuse code - keep code DRY
-			Primary motive
-        Began as a client-side scripting language
-        Has evolved to be a full-featured full-stack language
+				Threading
+					Main code per se is single-threaded
+						single thread handles the DOM and the event loop
+					API calls sent to the runtime can be implemented to run on separate threads
+						setTimeout() and setInterval() for simulating multithreading
+							Since these are API calls, these can be used to send out function calls to the API
+					Webworkers in web browsers run on separate threads
+						can run code on separate threads and communicate using message-passing
+						https://medium.com/young-coder/a-simple-introduction-to-web-workers-in-javascript-b3504f9d9d1c
+						cannot access the DOM, and some default methods and properties of the window object					
 			Structure
-				Fucntional and OO
+				Functional and Object-oriented
 		TS (TypeScript)
-			Why care?
+			Significance / importance
         Type checking and other features of TS make coding easier, more efficient
+				Allows issues in code to be caught early (right at code creation stage)
+			Primary motive
+        Type checking, better compile-time error checking
+				Issues can be identified by code-checkers while coding
+				More features over JS
 			Basics
         Superset of JS
           Type checking
-          More features
+          More features over JS, like newer features that may not be in JS yet
 				Compiles to plain old JS
 				Type system
           TS code is type-checked at compile-time
 					Types
-						value that has properties and methods
+						can look at a type as a value that has properties and methods
 						every value in TS has a type
 						new Date() has a Date type
-						Primitive type
-						Object type
+						Categories
+							Primitive type
+							Object type
 				Type annotations vs Type inference
-					Annotation - Types specified in code
-					Inference - TS infers type from value assigned
-			Primary motive
-        Type checking, better compile-time error checking
-          Issues can be identified by code-checkers while coding
-				More features over JS
+					Annotation - Types specified in code by programmer
+					Inference - TS infers type from value assigned to variable
 			Structure
-				Fucntional and OO
+				Functional and Object-oriented
 				Superset of JS
-	Maintainabilty
-		Readable code
-		Dcoumentation
 	FWs and libraries, existing solutions, design patterns
 		Design patterns
 		Libraries
@@ -138,10 +160,16 @@ Web prog
         Atom editor
         Neovim
         Vim
+			Plugins
+				Emmet
+					Plugin for many popular text editors which greatly improves HTML & CSS workflow
+					https://www.emmet.io
 			Debugging tools
 				Chrome debugger
 				Firefox debugger
-				Firefox dev release
+				Firefox developer edition
+					The Firefox Developer Edition is a version of Firefox that's tailored for web developers
+					https://www.mozilla.org/en-US/firefox/developer/
 		Test
 			Testing tools
 				Jasmine
@@ -149,6 +177,10 @@ Web prog
 		Release
 			Build tools
 				Webpack
-		Maintenance
-			Monitoring
-			Fix tools
+					https://webpack.js.org/guides/getting-started/
+			Compatibilty
+				Transpile
+					Babel
+	Great general resources
+		https://frontendmasters.com/books/front-end-handbook/2019/
+
