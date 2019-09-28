@@ -23,15 +23,10 @@ Express/Nodejs app acts as the server-side application and routes requests to th
 Map view containing a mindmap of web programming knowledge
 Component that will contain links to resources - can be accessed separately for individual nodes
 
-#### Features planned
+#### Planned improvements
 
-##### September 23
-- Basic map with short explanations
-
-##### September 29
+- Complete and improve map content
 - Links to resources where resources have been collected
-- Bug fixes and stability
-
-##### October 6
+- Bug fixes, performance and stability improvements
 - Aesthetics improvements
 - Export to PDF/text/image format
